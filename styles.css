@@ -182,3 +182,49 @@ main {
   text-align: center;
   color: #474747;
 }
+
+/*============= what-i-do-section=========== */
+.what-i-do-container {
+}
+.what-i-do-section {
+  padding: 0 150px;
+}
+.what-i-do-title {
+  margin-top: 130px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 35px;
+  line-height: 48px;
+  text-align: center;
+  color: #181818;
+  margin-bottom: 30px;
+}
+.what-i-do-description {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  text-align: center;
+  color: #757575;
+}
+.skill-container {
+  margin-top: 50px;
+}
+.skill-info {
+  display: flex;
+  gap: 24px;
+}
+.skill-title {
+  color: #181818;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 27px;
+}
+.skill-details {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  color: #757575;
+}
