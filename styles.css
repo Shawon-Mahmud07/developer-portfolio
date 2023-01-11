@@ -1,16 +1,25 @@
 * {
   margin: 0;
   font-family: "Open Sans", sans-serif;
+  border: 1px solid;
+  box-sizing: border-box;
+}
+body {
+  width: 100vw;
+  height: 100vh;
+  overflow-x: hidden;
 }
 /* header and navigation styles */
 .header {
-  width: 1350px;
-  height: 770.5px;
+  width: 100vw;
+  height: 100vh;
   background: #fff8f3;
-  background-image: url(images/header_bg.png);
+  background-image: url(images/header_bg.png), url(images/developer.png);
   background-repeat: no-repeat;
-  background-position: bottom right;
+  background-position: 690px 300px, 40px 10px;
+  background-size: 650px, 80px;
 }
+
 nav {
   display: flex;
   justify-content: space-between;
@@ -31,6 +40,7 @@ nav li {
 .nav-title {
   font-weight: 800;
   font-size: 45px;
+  margin-left: -65px;
 }
 .text-primary {
   color: #fd6e0a;
@@ -56,25 +66,33 @@ nav li {
     0 17px 50px 0 rgba(101, 84, 84, 0.19);
   opacity: 0.6;
 }
-/* header-banner styles */
+
+/*======== header-banner styles */
 
 .top-banner {
+  width: 100%;
   display: flex;
-  margin-left: 230px;
-  align-items: center;
-  margin-top: 47px;
+  margin-left: 90px;
+  height: 498px;
 }
 .text-div {
-  align-self: start;
-  margin-top: 10%;
+  width: 50%;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
 }
-.bannner-img-div {
-  width: 584px;
-  height: 676px;
-  margin-right: 38px;
+.flex {
+  padding-left: 40px;
+}
+.banner-img {
+  height: 496px;
+}
+.banner-img-div {
+  width: 50%;
 }
 .banner-img img {
-  width: 97.9%;
+  width: 73%;
 }
 .banner-sub-title {
   font-style: normal;
@@ -112,6 +130,7 @@ nav li {
   border-radius: 5px;
   color: #ffffff;
   border: none;
+  cursor: pointer;
 }
 .banner-second-btn {
   width: 160px;
@@ -126,6 +145,7 @@ nav li {
   letter-spacing: 0em;
   text-align: center;
   background-color: transparent;
+  cursor: pointer;
 }
 
 /* =====main section styles================ */
@@ -235,7 +255,7 @@ main {
   box-shadow: 0px 10px 50px rgba(0, 0, 0, 0.06);
   border-radius: 5px;
   width: 267px;
-  height: 300px;
+  height: 386px;
   padding-left: 30px;
   padding-right: 30px;
   padding-bottom: 30px;
@@ -244,3 +264,5 @@ main {
   margin-bottom: 30px;
   margin-top: 30px;
 }
+
+/* ==============my resume section style ================= */
